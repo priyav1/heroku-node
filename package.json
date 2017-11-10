@@ -1,0 +1,24 @@
+{
+  "name": "heroku-node",
+  "version": "1.0.0",
+  "description": "Sample Node to Heroku app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/priyav1/heroku-node.git"
+  },
+  "author": "Priya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/priyav1/heroku-node/issues"
+  },
+  "homepage": "https://github.com/priyav1/heroku-node#readme",
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.16.2"
+  }
+}
